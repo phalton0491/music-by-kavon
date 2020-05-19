@@ -1,0 +1,31 @@
+.contact{
+  background: #2c2c2c;
+  color:#FFF;
+  font-family: 'Jost', sans-serif;
+  padding-bottom:3rem;
+}
+
+.contact-heading{
+  padding-left: 7.2rem;
+  padding-top: 3rem;
+}
+
+hr{
+  width: 300px;
+  display: inline-block;
+}
+
+.contact-heading h2{
+  color: #FFF;
+  font-family: 'Jost', sans-serif;
+}
+
+ul{
+  list-style-type: none;
+  font-size: 2rem;
+  padding-left: 7.2rem;
+}
+
+ul li span{
+  margin-left: 15px;
+}

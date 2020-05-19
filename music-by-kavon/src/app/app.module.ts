@@ -6,6 +6,11 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ArtistIntroComponent } from './artist-intro/artist-intro.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ContactComponent } from './contact/contact.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SignatureComponent } from './signature/signature.component';
+
 
 
 @NgModule({
@@ -13,11 +18,15 @@ import { ArtistIntroComponent } from './artist-intro/artist-intro.component';
     AppComponent,
     HeaderComponent,
     SidebarComponent,
-    ArtistIntroComponent
+    ArtistIntroComponent,
+    GalleryComponent,
+    ContactComponent,
+    SignatureComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
